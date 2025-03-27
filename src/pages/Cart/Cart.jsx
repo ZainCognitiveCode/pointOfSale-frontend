@@ -3,7 +3,7 @@ import Button from "../../components/UI/Button";
 import { useDispatch, useSelector } from "react-redux";
 import { clearCart, getCart } from "../../components/redux/slice/cart";
 import EmptyCart from "../../components/UI/EmptyCart";
-import CartItem from "./cartItem";
+import CartItem from "./CartItem";
 import OrderSummary from "../../components/UI/OrderSummary";
 import ProductModal from "../../components/UI/ProductModal";
 import { useState } from "react";
